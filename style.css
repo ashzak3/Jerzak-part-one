@@ -1,0 +1,57 @@
+body{
+    font-family: "Bungee";
+    }
+    
+    section{
+        background-color: #ff00ff;
+    }
+    
+      ul {
+        list-style-type: none;
+        margin: 20px;
+        padding: 20px;
+        overflow: hidden;
+      }
+    
+      li{
+        float: right;
+      }
+    
+      li a{
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        color:#7944e6;
+      }
+    
+      li a:hover{
+          color: #10fdff;
+      }
+    
+      .COFFEE{
+          border: 6px solid #7944e6;
+      }
+    
+      .CREAM{
+        border: 6px solid #7944e6;
+      }
+    
+      .COOKIES{
+        border: 6px solid #7944e6;
+      }
+      
+      .row{
+          display: flex;
+          flex-direction: column;
+      }
+    
+      .image{
+          max-width: 600px;
+      }
+    
+      
+      @media only screen and (min-width:768px) {
+          .row{
+            flex-direction:row;
+          }
+      }
